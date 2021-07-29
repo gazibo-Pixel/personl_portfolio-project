@@ -1,0 +1,9 @@
+<h1>Home Page</h1>
+
+{% for pro in project %}
+<h2>{{pro.title}}</h2>
+<p>{{pro.description}}</p>
+<img src = "{{pro.image.url}}>"  </img>
+
+
+{% endfor %}
